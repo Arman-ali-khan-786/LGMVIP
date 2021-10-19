@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #ccc;
+}
+#header {
+  padding: 24px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.918);
+  background-image: linear-gradient(to top , rgb(68, 135, 211) , rgb(3, 186, 211) , rgb(4, 79, 122));
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+#heading{
+  font-size: 32px;
+  color: orange;
+}
+span{
+  color: green;
+}
+#getUsersDetails{
+  background-color: rgb(117, 245, 58);
+  padding: 10px 24px;
+  font-size: 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+#getUsersDetails:hover {
+  background-color: white;
+  color: rgb(117, 245, 58);
+  border: 1px solid rgb(117, 245, 58);
+
+}
+.UserCards {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-card {  
+  background-image: linear-gradient(to top right , rgb(10, 84, 153) , rgb(46, 201, 212) , rgb(12, 228, 217));
+  margin: 30px auto;
+  width: 31%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+}
+.user-card:hover{
+  box-shadow: 1px 0px 20px rgb(77, 169, 231);
+  transform: scale(1.09);
+}
+.left{  
+  padding: 8px;
+}
+.right{
+  padding: 8px;
+  margin-left: 8px;
+}
+.right > p{
+  margin-top: 30px;
+}
+.left > img {
+  margin: 10px  auto;
+  border-radius: 70px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.479);
+}
+#name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 26px;
+}
